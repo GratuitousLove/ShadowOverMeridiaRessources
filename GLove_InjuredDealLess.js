@@ -5,6 +5,7 @@
 * Known issues : 
 * -It might not work with multiHit attack, more specificaly, if several attack are dealt before a counterAttack, the counterAttack might not properly take into account Hp change done by the recent multiStrikes
 * Comment with 4 '////' are those I added myself, comment with '//' are original comment from block of code I took from SRPG's code
+* If you need explenation about how it works, feel free to ping me on SRPG's discord
 ******************************/
 ////Modified singleton-calculator to change the way damage is calculateDamage
 ////Damage will be POW - finalDef - targetRES - terrainRES
