@@ -9,8 +9,8 @@
 ******************************/
 ////Modified singleton-calculator to change the way damage is calculateDamage
 ////Damage will be (POW - finalDef - targetRES - terrainRES) * actualHp/MaxHP  rounded down
-////POW is the STR
-////PEN is the SKI stat
+////POW uses the STR stats in SRPG
+////PEN uses the SKI stats in SRPG
 ////finalDef is the DEF of the target minus the PEN of the attack cannot go below 0
 ////targetRES is RES of the target, terrainRES is the RES of the terrain if applicable
 
