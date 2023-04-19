@@ -8,10 +8,10 @@
 * If you need explanation about how it works, feel free to ping me on SRPG's discord
 ******************************/
 ////Modified singleton-calculator to change the way damage is calculateDamage
-////Damage will be POW - finalDef - targetRES - terrainRES * actualHp/MaxHP  rounded down
+////Damage will be (POW - finalDef - targetRES - terrainRES) * actualHp/MaxHP  rounded down
 ////POW is the STR
 ////PEN is the SKI stat
-////finalDef is the DEF of the target minus the PEN of the attack
+////finalDef is the DEF of the target minus the PEN of the attack cannot go below 0
 ////targetRES is RES of the target, terrainRES is the RES of the terrain if applicable
 
 ////****Override of Ability calculator, You probably want to remove/remake this part to fit your damage calculation well*****
